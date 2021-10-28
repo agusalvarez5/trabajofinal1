@@ -1,0 +1,77 @@
+.banner_cont {
+    height: 70vh;    
+    background-image: url(../IMG1/PLAYA1.jpg) ;
+    background-attachment: fixed;    
+    background-size: cover; 
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;            
+}
+
+.banner_sombra {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.banner_sombra hr {
+    border-top: 3px solid white ;
+
+}
+
+.banner_sombra h1 {
+    font-size: 5vw;
+    margin-bottom: 10px;   
+}
+
+.bannerlink {
+    margin: 15px;
+    position: relative;
+}
+
+.bannerlink a {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.banner1 {
+    opacity: 0;
+    animation: banner_keyframes_aparecedesdearriba 1s;
+    -webkit-animation: banner_keyframes_aparecedesdearriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.banner2 {
+    opacity: 0;
+    animation: banner_keyframes_aparecedesdearriba 2s;
+    -webkit-animation: banner_keyframes_aparecedesdearriba 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.banner3 {
+    opacity: 0;
+    animation: banner_keyframes_aparecedesdearriba 2s;
+    -webkit-animation: banner_keyframes_aparecedesdearriba 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+
+
+
+
